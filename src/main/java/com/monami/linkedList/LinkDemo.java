@@ -56,6 +56,7 @@ package com.monami.linkedList;
 	        start = null;
 	        end = null;
 	        size = 0;
+	        
 	    }
 	    /*  Function to check if list is empty  */
 	    public boolean isEmpty()
@@ -72,6 +73,9 @@ package com.monami.linkedList;
 	    {
 	        Node nptr = new Node(val, null);    
 	        size++ ;    
+	 
+	        
+	        
 	        if(start == null) 
 	        {
 	            start = nptr;
